@@ -362,11 +362,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
                 [
                     InlineKeyboardButton('🧲Group🧲', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a'),
-                    InlineKeyboardButton('⭕️channel⭕️', url='https://telegram.me/CV_Community')
-                ],
-                [
-                    InlineKeyboardButton('💰 Paid Promotion', url='https://t.me/CVPaid_promotion')
+                    InlineKeyboardButton('⭕️channel⭕️', url='https://t.me/+Tsu5PkbaWLNiYTZl')
                 ]
+                
                 ]
             
         try:
@@ -416,10 +414,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
                 [
                     InlineKeyboardButton('🧲Group🧲', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a'),
-                    InlineKeyboardButton('⭕️channel⭕️', url='https://telegram.me/CV_Community')
-                ],
-                [
-                    InlineKeyboardButton('💰 Paid Promotion', url='https://t.me/CVPaid_promotion')
+                    InlineKeyboardButton('⭕️channel⭕️', url='https://t.me/+Tsu5PkbaWLNiYTZl')
                 ]
                 ]
         await query.answer()
@@ -897,14 +892,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/c_v_link")]
+            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/+Tsu5PkbaWLNiYTZl")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/c_v_link")]
+            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/+Tsu5PkbaWLNiYTZl")]
         )
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
