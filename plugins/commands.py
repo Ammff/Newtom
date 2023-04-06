@@ -145,7 +145,7 @@ async def start(client, message):
             buttons = [
                 [
                     InlineKeyboardButton('🧲Group🧲', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a'),
-                    InlineKeyboardButton('⭕️channel⭕️', url='https://t.me/+Tsu5PkbaWLNiYTZl')
+                    InlineKeyboardButton('⭕️channel⭕️', url='https://t.me/+okpe9AyRx781OGFl')
                 ]
                 ]
             try:
@@ -256,7 +256,7 @@ async def start(client, message):
     buttons = [
                 [
                     InlineKeyboardButton('🧲Group🧲', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a'),
-                    InlineKeyboardButton('⭕️channel⭕️', url='https://t.me/+Tsu5PkbaWLNiYTZl')
+                    InlineKeyboardButton('⭕️channel⭕️', url='https://t.me/+2UJzU4_hibdhYzk1')
                 ]
                 ]
     await client.send_cached_media(
